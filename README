@@ -3,5 +3,5 @@ Using Flash to access webcam, copies frames to data-urls to use with HTML
 Performance Problems
 As video size for webcam increases, framerate drops rapidly. Default is 80x60, which is 4800 pixels. To use larger webcam size (300x200 = 60000) makes a huge difference.
 
-Chrome leaks memory (caches all data-urls)
+Chrome leaks memory (caches all data-urls) - not apparent in Chrome 10.0.648.133 beta
 http://code.google.com/p/chromium/issues/detail?id=25047
